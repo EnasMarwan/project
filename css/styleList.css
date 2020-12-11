@@ -1,12 +1,47 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0px; 
+    padding: 0px; 
     box-sizing: border-box;
 }
-body {
-    background-image:url('bg-01.jpg');
+body, html {
+  height: 100%;
+  font-family: SourceSansPro-Regular, sans-serif;
+}
+.container {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
 }
 
+.container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(93,84,240,0.5);
+  background: -webkit-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
+  background: -o-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
+  background: -moz-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
+  background: linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
+  pointer-events: none;
+}
 .menu-container{
     color: #fff;
     background-color: #5995da;
@@ -43,24 +78,33 @@ body {
     align-items: center;
 }
 
-
 .button1 , .button2, .button3 {
-    color: white;
-    padding: 20px ;
-    text-align:left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 8px 4px;
-    cursor: pointer;
+	border-radius:25px;
+	border:1px 
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 34px;
+	text-decoration:none;
+	text-shadow:-3px 2px 9px #2f6627;
   }
   
   .button1 {background-color: #4CAF50;} /* Green */
   .button2 {background-color: #008CBA;} /* Blue */
   .button3 {background-color: #ba0000;} /* red */
+  
+  .button1:hover , .button2:hover, .button3:hover {
+	background-color:#656962;
+}
+.button1:active , .button2:active, .button3:active {
+	position:relative;
+	top:1px;
+}
 
   #fname{
-    border: solid;
+    border: 0;
     padding: 20px 42px;
     text-align:auto;
     text-decoration:left;
@@ -78,5 +122,6 @@ body {
     width: 900px ;
 
   }
+
 
 
