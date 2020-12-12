@@ -1,0 +1,1 @@
+document.getElementById("title").innerHTML="إضافة بيانات الطفل";
