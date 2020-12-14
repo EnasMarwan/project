@@ -51,7 +51,12 @@ a {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
+button a{
 
+    color: #FFF;
+    text-decoration: none
+
+}
 a:focus {
 	outline: none !important;
 }
