@@ -13,6 +13,9 @@
     <!-- Place favicon.ico in the root directory -->
     
   <!-- CSS here -->
+  <link rel="stylesheet" href="assets/css/jquery.bxslider.css" />
+ 
+  <link rel="stylesheet" href="assets/css/normalize.css" />
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/css/slicknav.css">
@@ -59,15 +62,15 @@
                             <!-- Main-menu -->
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>                              
-                                    <ul id="navigation">    
+                                    <ul class="links" id="navigation">    
                                         
                                         
-                                        <li><a href="home.html">Home</a></li>
+                                        <li class="active"><a href="#"data-value="Home" >Home</a></li>
                                         <li><a href="index2.html">Rrgister</a></li>
                                           <li><a href="index.html">Login</a></li>
-                                          <li><a href="index.html">Gallery</a></li>
+                                          <li><a href="#" data-value="gallery">Gallery</a></li>
                                          
-                                            <li><a href="contact.html">about us</a></li>
+                                            <li><a href="#" data-value="about">about us</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -90,7 +93,7 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
+    <div id="home" class="carousel-inner">
       <div class="carousel-item active">
         <img class="d-block w-100" src="assets/images/d.jpg" alt="First slide">
       
@@ -115,9 +118,9 @@
 
     <!--================Blog Area =================-->
 
- <section class="blog_area section-padding">
-       <div class="our-memories-area section-padding2">
-            <div class="container">
+ <section  class="blog_area section-padding">
+       <div  id="gallery" class="our-memories-area section-padding2">
+            <div   class="container">
                 <!-- section tittle -->
                 <div class="row ">
                     <div class="col-lg-12">
@@ -187,7 +190,7 @@
     <footer>
         <!-- Footer Start-->
         <div class="footer-main footer-bg">
-        <div style="text-align: center; " class="footer-area footer-padding">
+        <div id="about" style="text-align: center; " class="footer-area footer-padding">
            
                                 <h4 style="text-align: center; font-size: 40px; ">ABOUT US</h4>
                              <p style="text-align: center; padding: 30px; color: #555;"> 
@@ -223,6 +226,9 @@
         <!-- Footer End-->
     </footer>
 <!-- JS here -->
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+        <script src="assets/js/jquery.bxslider.min.js"></script>
+<script src="./assets/js/index.js"></script>
 	
 		<!-- All JS Custom Plugins Link Here here -->
         <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>

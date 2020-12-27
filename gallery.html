@@ -1,26 +1,19 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
 
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
-	<title>Login V9</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-<link href="<?= base_url(); ?>css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
-<link href="<?= base_url(); ?>bootstrap/bootstrap-rtl.min.css" rel="stylesheet" type="text/css" />
-<link href="<?= base_url(); ?>bootstrap/bootstrap-switch-rtl.min.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="assets/css/jquery.bxslider.css" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+    
+  <!-- CSS here -->
+  <link rel="stylesheet" href="assets/css/jquery.bxslider.css" />
  
   <link rel="stylesheet" href="assets/css/normalize.css" />
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -35,11 +28,10 @@
   <link rel="stylesheet" href="assets/css/nice-select.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-<!--===============================================================================================-->
 </head>
+
 <body>
-	<header>
+    <header>
         <!-- Header Start -->
        <div class="header-area">
             <div class="main-header header-sticky">
@@ -60,9 +52,11 @@
                                         
                                         
                                         <li class="active"><a href="home.html" >Home</a></li>
-                                        
-                                          <li><a href="index2.html">Rrgister</a></li>
-                                          <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="index2.html">Rrgister</a></li>
+                                          <li><a href="index.html">Login</a></li>
+                                          <li><a href="#" data-value="gallery">Gallery</a></li>
+                                         
+                                            
                                     </ul>
                                 </nav>
                             </div>
@@ -77,44 +71,75 @@
        </div>
         <!-- Header End -->
     </header>
-	
-	
-
-	<div class="container-login100">
-		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
-			<form class="login100-form validate-form">
-				<span class="login100-form-title p-b-37" style="padding-top: 35px;">Log in </span>
-<br>
-<br>
-				<div class="wrap-input100 validate-input m-b-20" data-validate="Enter username or email">
-					<input class="input100" type="text" name="username" placeholder="Enter your username or email ">
-					<span class="focus-input100"></span>
-				</div>
-<br>
-<br>
-				<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
-					<input class="input100" type="password" name="pass" placeholder="Enter your password">
-					<span class="focus-input100"></span>
-				</div>
-<br>
-<br>
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-						<a href="index1.html">Log in </a>
-					</button>
-				</div>
-<br>
-<br>
-			</form>
-
-			
-		</div>
-	</div>
-	
-	
-
-	<div id="dropDownSelect1"></div>
-	<script src="assets/js/jquery-1.11.3.min.js"></script>
+    <section  class="blog_area section-padding" style="padding-top: 100px !important;">
+        <div  id="gallery" class="our-memories-area section-padding2" style="padding-top: 0px !important;">
+             <div   class="container">
+                 <!-- section tittle -->
+                 <div class="row ">
+                     <div class="col-lg-12">
+                         <div class="section-tittle text-center">
+                         
+                             <h2>OUR MEMORIES</h2>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="row no-gutters">
+ 
+                     <div class="col-lg-4 col-md-4">
+                         <div class="memory">
+                       <img src="assets/images/a.jpg" alt="">
+                            </div>
+ 
+                     </div> 
+                     <div class="col-lg-4 col-md-4">
+                         <div class="memory">
+                                 <img src="assets/images/n1.jpg" alt="">
+                               </div>
+                        </div> 
+ 
+                          <div class="col-lg-4 col-md-4">
+                         <div class="memory">
+                       <img src="assets/images/n2.jpg" alt="">
+                            </div>
+ 
+                     </div> 
+                     <div class="col-lg-4 col-md-4">
+                         <div class="memory">
+                                 <img src="assets/images/n3.jpg" alt="">
+                               </div>
+                        </div> 
+ 
+                          <div class="col-lg-4 col-md-4">
+                         <div class="memory">
+                       <img src="assets/images/n4.jpg" alt="">
+                            </div>
+ 
+                     </div> 
+                     <div class="col-lg-4 col-md-4">
+                         <div class="memory">
+                                 <img src="assets/images/a.jpg" alt="">
+                               </div>
+                        </div> 
+                         <div class="col-lg-4 col-md-4">
+                         <div class="memory">
+                                 <img src="assets/images/n1.jpg" alt="">
+                               </div>
+                        </div> 
+ 
+                          <div class="col-lg-4 col-md-4">
+                         <div class="memory">
+                       <img src="assets/images/n2.jpg" alt="">
+                            </div>
+ 
+                     </div> 
+                     <div class="col-lg-4 col-md-4">
+                         <div class="memory">
+                                 <img src="assets/images/n3.jpg" alt="">
+                               </div>
+                        </div> 
+ 
+     </section>
+     <script src="assets/js/jquery-1.11.3.min.js"></script>
         <script src="assets/js/jquery.bxslider.min.js"></script>
 <script src="./assets/js/index.js"></script>
 	
@@ -152,9 +177,6 @@
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
-
-<!--===============================================================================================-->
-
 
 </body>
 </html>
