@@ -1,12 +1,41 @@
+
+@font-face {
+  font-family: SourceSansPro-Regular;
+  src: url('../fonts/source-sans-pro/SourceSansPro-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: SourceSansPro-Bold;
+  src: url('../fonts/source-sans-pro/SourceSansPro-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: SourceSansPro-SemiBold;
+  src: url('../fonts/source-sans-pro/SourceSansPro-SemiBold.ttf'); 
+}
+
+@font-face {
+  font-family: JosefinSans-Bold;
+  src: url('../fonts/JosefinSans/JosefinSans-Bold.ttf'); 
+}
+
+
+
 * {
-    margin: 0px; 
-    padding: 0px; 
-    box-sizing: border-box;
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
 }
+
 body, html {
-  height: 100%;
-  font-family: SourceSansPro-Regular, sans-serif;
+	height: 100%;
+	font-family: SourceSansPro-Regular, sans-serif;
 }
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
 .container {
   width: 100%;  
   min-height: 100vh;
@@ -35,48 +64,9 @@ body, html {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(93,84,240,0.5);
-  background: -webkit-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  background: -o-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  background: -moz-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  background: linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
   pointer-events: none;
 }
-.menu-container{
-    color: #fff;
-    background-color: #5995da;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-}
-.menu{
-   
-    width: 900px;
-    display: flex;
-    justify-content: space-between;
 
-}
-.link{
-    width: 150px;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.header-container{
-    color: #5995da;
-    background-color: #d6e9fe;
-    display: flex;
-    justify-content: center;
-}
-
-.header{
-    width: 900px;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .button1 , .button2, .button3 {
 	border-radius:25px;
