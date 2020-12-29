@@ -571,3 +571,6 @@ input[type="search"] {
   font-weight: bold;
   color: #009879;
 }
+th{
+  text-align: center;
+}
