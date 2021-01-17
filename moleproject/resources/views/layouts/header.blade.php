@@ -43,8 +43,9 @@
                                         
                                         
                                         <li class="active"><a href="#"data-value="Home" >Home</a></li>
+                                        <li> <a href="{{ route('register') }}">Register</a></li>
                                         <li> <a href="{{ route('login') }}">Login</a></li>
-                                          <li><a href="{{ route('register') }}">Register</li>
+                                         
                                           <li><a href="#" data-value="gallery">Gallery</a></li>
                                          
                                             <li><a href="#" data-value="about">about us</a></li>
