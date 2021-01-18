@@ -29,7 +29,7 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <!-- Logo -->
-                        <div class="col-xl-2 col-lg-2 col-md-2" style="padding-right: 20px; padding-top: 10px;">
+                        <div class="col-xl-2 col-lg-2 col-md-2" style=" padding-right: 20px; padding-top: 10px;">
                             <div class="logo">
                                 <p style="color: black; font-size: 25px" >Mall games</p>
                              <!--   <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>-->
@@ -44,10 +44,10 @@
                                         
                                         <li class="active"><a href="#"data-value="Home" >Home</a></li>
                                         <li> <a href="{{ route('login') }}">Login</a></li>
-                                          <li><a href="{{ route('register') }}">Register</li>
+                                        <li ><a href="{{ route('register') }}">Register</a></li>
                                           <li><a href="#" data-value="gallery">Gallery</a></li>
-                                         
                                             <li><a href="#" data-value="about">about us</a></li>
+                                            
                                     </ul>
                                 </nav>
                             </div>
