@@ -1,20 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+<div  class="container">
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+                <div style="text-align: center; font-size:30px; font-style:italic; color:rgb(58, 99, 233);" class="card-header">{{ __('Login') }}</div>
 
-                <div class="card-body">
+                <div style="background-color:rgb(228, 228, 238); " class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
