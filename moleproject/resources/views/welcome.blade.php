@@ -7,7 +7,7 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
-  <div id="home" class="carousel-inner">
+  <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="assets/images/d.jpg" alt="First slide">
     
@@ -27,7 +27,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+  </div>
   <!-- slider End -->
 
   <!--================Blog Area =================-->
@@ -54,50 +54,50 @@
                   </div> 
                   <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                              <img src="assets/images/n2.jpg" alt="">
+                              <img src="assets/images/a.jpg" alt="">
                             </div>
                      </div> 
 
                        <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                    <img src="assets/images/11.jpg" alt="">
+                    <img src="assets/images/a.jpg" alt="">
                          </div>
                        </div> 
 
                        <br>
                   <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                              <img src="assets/images/8.jpg" alt="">
+                              <img src="assets/images/a.jpg" alt="">
                             </div>
                      </div> 
 
                        <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                    <img src="assets/images/n3.jpg" alt="">
+                    <img src="assets/images/a.jpg" alt="">
                          </div>
 
                   </div> 
                   <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                              <img src="assets/images/4.jpg" alt="">
+                              <img src="assets/images/a.jpg" alt="">
                             </div>
                      </div> 
                      <br>
                       <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                              <img src="assets/images/n2.jpg" alt="">
+                              <img src="assets/images/a.jpg" alt="">
                             </div>
                      </div> 
 
                        <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                    <img src="assets/images/images.jpg" alt="">
+                    <img src="assets/images/a.jpg" alt="">
                          </div>
 
                   </div> 
                   <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                              <img src="assets/images/3.jpg" alt="">
+                              <img src="assets/images/a.jpg" alt="">
                             </div>
                      </div> 
 

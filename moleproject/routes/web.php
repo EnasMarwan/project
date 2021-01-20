@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/mole', 'MoleController@index');
 Route::get('/index', 'MoleController@search')->name('mole.search');
-Route::get('/mole/create','MoleController@create' );
+Route::get('/mole/create','MoleController@create' )->name('mole.create');
 Route::get('mole/edit/{id}','MoleController@edit' )->name('mole.edit');
 Route::put('mole/update/{id}','MoleController@update' )->name('mole.update');
 Route::Post('/mole','MoleController@store' );

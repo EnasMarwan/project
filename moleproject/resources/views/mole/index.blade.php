@@ -43,6 +43,7 @@
                                         
                                         
                                         <li class="active"><a href="{{ route('home') }}">Home</a></li>
+                                        <li class="active"><a href="{{ route('mole.create') }}">Add child</a></li>
                                      <li><a href="#" data-value="gallery">Gallery</a></li>
                                          
                                     </ul>
@@ -68,14 +69,12 @@
 
     <!---content------------------------------------->
 
-    <div class="containerr" style="background-image: url('assets/images/e.jpg');">
+    <div class="containerr" style="background-image: url('assets/images/2.jpeg');">
         <div class="contentme" style="background-color: #FFF;padding: 20px; border-radius: 10px;">
             <form action="{{route('mole.search')}}" method="get"  style="text-align: center;" >
                 <input id="Search" type="search" name="search" placeholder="Search..." autofocus required /> 
                 <button id="searchbtn" class="button2" >Search</button>
-                
-                <button id="cancelbtn" class="button3" > Cancel  </button>
-   
+                               
             </form>
 <!--tabel ------------------------------->
             <div class="tabel">
@@ -118,8 +117,8 @@
                               <button>Delete</button>
 
                                </form>
-
-                                 <a style=" 	border-radius:25px;
+                               
+                                 <a  style=" 	border-radius:25px;
                                  border:1px ;
                                  display:inline-block;
                                  cursor:pointer;

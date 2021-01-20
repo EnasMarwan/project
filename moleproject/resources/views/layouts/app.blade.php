@@ -19,8 +19,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body style=" background-image:url('assets/images/00.jpg');
-background-repeat: no-repeat;background-size: cover; height:650px;">
+<body style="     background-image:url('assets/images/2.jpeg'); 
+background-repeat: no-repeat;
+background-size: cover; " >
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -73,11 +74,9 @@ background-repeat: no-repeat;background-size: cover; height:650px;">
             </div>
         </nav>
 
-        <main class="py-4"  >
+        <main class="py-4">
             @yield('content')
         </main>
     </div>
-    
-    
 </body>
 </html>

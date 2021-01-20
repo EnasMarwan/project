@@ -8,57 +8,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- CSS here -->
-  <link rel="stylesheet" href="assets/css/jquery.bxslider.css" />
-   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+ 
 </head>
-<header>
-    <!-- Header Start -->
-   <div class="header-area">
-        <div class="main-header header-sticky">
-            <div class="container">
-                <div class="row align-items-center">
-                    <!-- Logo -->
-                    <div class="col-xl-2 col-lg-2 col-md-2" style="padding-right: 20px;">
-                        <div class="logo">
-                            <p style="color:black;font-size: 25px ;padding-top: 15px;" >Mall games</p>
-                         <!--   <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>-->
-                        </div>
-                    </div>
-                    <div class="col-xl-10 col-lg-10 col-md-10" style="padding-left: 400px;">
-                        <!-- Main-menu -->
-                        <div class="main-menu f-right d-none d-lg-block">
-                            <nav style="padding-left: 200px;">                              
-                                <ul class="links" id="navigation" >    
-                                      <li><a href="gallery1.html">Gallery</a></li>                                     
-                                        <li><a href="indexList.html"> List of existing children</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div> 
-                    <!-- Mobile Menu -->
-                    <div class="col-12">
-                        <div class="mobile_menu d-block d-lg-none"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-   </div>
-    <!-- Header End -->
-</header>
-<body >
+
+
+    
  <style>
 * {
 	margin: 0px; 
 	padding: 0px; 
 	box-sizing: border-box;
+  
 }
 
 body, html {
 	height: 100%;
-	font-family: SourceSansPro-Regular, sans-serif;
+	background-image: url("https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 a {
 	font-family: SourceSansPro-Regular;
@@ -80,38 +49,13 @@ a:hover {
   text-decoration: none;
   color: #4b2354;
 }
-ul, li {
-	margin: 20px;
-  list-style-type: none;
-  float: left;
-  
-}
+
 
 input {
 	outline: none;
 	border: none;
 }
 
-textarea {
-  outline: none;
-  border: none;
-}
-
-textarea:focus, input:focus {
-  border-color: transparent !important;
-}
-
-input::-webkit-input-placeholder { color: #504f50;}
-input:-moz-placeholder { color: #4b2354;}
-input::-moz-placeholder { color: #4b2354;}
-input:-ms-input-placeholder { color: #4b2354;}
-
-textarea::-webkit-input-placeholder { color: #4b2354;}
-textarea:-moz-placeholder { color: #4b2354;}
-textarea::-moz-placeholder { color: #4b2354;}
-textarea:-ms-input-placeholder { color: #4b2354;}
-
-/*---------------------------------------------*/
 button {
 	outline: none !important;
 	border: none;
@@ -125,7 +69,6 @@ button:hover {
 iframe {
 	border: none !important;
 }
-
 .container-login100 {
   width: 100%;  
   min-height: 0vh;
@@ -142,6 +85,7 @@ iframe {
   background-position: center;
   position: relative;
   z-index: 1;
+  
 }
 .wrap-login100 {
   width: 390px;
@@ -158,16 +102,14 @@ iframe {
 .login100-form {
   width: 100%;
 }
-
 .login100-form-title {
   display: block;
   font-family: SourceSansPro-Bold;
   font-size: 30px;
-  color: #ec7c1a;
+  color: #5d91f1;
   line-height: 1.2;
   text-align: center;
 }
-
 /*------------------------------------------------------------------
 [ Input ]*/
 
@@ -188,9 +130,6 @@ iframe {
   padding: 0 0px 0 23px;
   
 }
-
-
-
 
 /*------------------------------------------------------------------
 [ Focus Input ]*/
@@ -215,13 +154,7 @@ iframe {
   transition: all 0.4s;
 }
 
-.input100:focus + .focus-input100 {
-  box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.2);
-  -ms-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.2);
-}
+
 
 /*------------------------------------------------------------------
 [ Button ]*/
@@ -247,7 +180,7 @@ iframe {
   padding: 0 20px;
   min-width: 160px;
   height: 50px;
-  background-color: #e09c5f;
+  background-color:#5d91f1;
   border-radius: 25px;
 
   font-family: SourceSansPro-SemiBold;
@@ -261,125 +194,6 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
-  -moz-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
-  -o-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
-  -ms-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
-}
-
-.login100-form-btn:hover {
-  background-color: #dd7820;
-  box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
-  -moz-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
-  -o-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
-  -ms-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
-}
-
-
-/*------------------------------------------------------------------
-[ Alert validate ]*/
-
-.validate-input {
-  position: relative;
-}
-
-.alert-validate .focus-input100 {
-  box-shadow: 0 5px 30px 0px rgba(250, 66, 81, 0.1);
-  -moz-box-shadow: 0 5px 30px 0px rgba(250, 66, 81, 0.1);
-  -webkit-box-shadow: 0 5px 30px 0px rgba(250, 66, 81, 0.1);
-  -o-box-shadow: 0 5px 30px 0px rgba(250, 66, 81, 0.1);
-  -ms-box-shadow: 0 5px 30px 0px rgba(250, 66, 81, 0.1);
-}
-
-.alert-validate::before {
-  content: attr(data-validate);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  width: 100%;
-  min-height: 62px;
-  background-color: #fff;
-  border-radius: 20px;
-  top: 0px;
-  left: 0px;
-  padding: 0 45px 0 22px;
-  pointer-events: none;
-
-  font-family: SourceSansPro-Bold;
-  font-size: 16px;
-  color: #fa4251;
-  line-height: 1.2;
-}
-
-.btn-hide-validate {
-  font-family: Material-Design-Iconic-Font;
-  font-size: 15px;
-  color: #fa4251;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  height: 62px;
-  top: 0px;
-  right: 23px;
-}
-
-.rs1-alert-validate.alert-validate::before {
-  background-color: #fff;
-}
-
-.true-validate::after {
-  content: "\f269";
-  font-family: Material-Design-Iconic-Font;
-  font-size: 15px;
-  color: #57b846;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  height: 62px;
-  top: 0px;
-  right: 23px;
-}
-/*//////////////////////////////////////////////////////////////////
-[ Social item ]*/
-
-.login100-social-item {
-  font-size: 25px;
-  color: #3b5998;
-
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #fff;
-  margin: 5px;
-  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
-  -ms-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 480px) {
@@ -389,8 +203,8 @@ iframe {
   }
 }
 </style>
-
-  <div class="container-login100"  style="background-image:url('assets/images/1.jpg');padding:20px">
+<body  >
+  <div class="container-login100"  >
   <div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30" style=" width:500px !important;">
   <form class="login100-form validate-form" action="/mole" method="POST">
                     @csrf
@@ -434,22 +248,17 @@ iframe {
   <span class="focus-input100"></span>
 </div>
 <br>
-<label style="color: rgb(83, 81, 81); font-weight:200; font-family: Arial, Helvetica, sans-serif; ">Selected games:</label>
-<br>
-<br>
 <div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
-  <textarea class="input100" type="text" name="game_sellect"  style="height:100px !important; width: 100%; color: #4b2354; padding-top: 10px;"></textarea>
-  <span class="focus-input100"></span>
-</div>
-<br>
-<br>
+    <input class="input100" type="text" name="game_sellect" placeholder="Select the game" style="width: 260px !important;">
+    <span class="focus-input100"></span>
+  </div>
+  <br>
+  
       <div class="container-login100-form-btn">
         <button class="login100-form-btn">
           <a> submit </a>
         </button>
       </div>
-<br>
-<br>
     </form>
   </div>
 </div>
