@@ -17,6 +17,7 @@
                     {{ __('You are logged in!') }}
                    <p> <a href="/mole/create"> Recored the data  </a> </p>
                    <p> <a href="/mole"> Show the list </a> </p>
+                   <p> <a href="/mole"> Show the list </a> </p>
 </form>
                 </div>
             </div>
