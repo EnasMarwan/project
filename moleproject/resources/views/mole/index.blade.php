@@ -44,7 +44,6 @@
                                         
                                         <li class="active"><a href="{{ route('home') }}">Home</a></li>
                                         <li class="active"><a href="{{ route('mole.create') }}">Add child</a></li>
-                                     <li><a href="#" data-value="gallery">Gallery</a></li>
                                          
                                     </ul>
                                 </nav>
@@ -74,6 +73,7 @@
             <form action="{{route('mole.search')}}" method="get"  style="text-align: center;" >
                 <input id="Search" type="search" name="search" placeholder="Search..." autofocus required /> 
                 <button id="searchbtn" class="button2" >Search</button>
+                <button class="button2" ><a href="/mole">Cancle</a></button>
                                
             </form>
 <!--tabel ------------------------------->
