@@ -23,7 +23,7 @@
 
 body, html {
 	height: 100%;
-	background-image: url("https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+	
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -204,8 +204,8 @@ iframe {
 }
 </style>
 <body  >
-  <div class="container-login100"  >
-  <div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30" style=" width:500px !important;">
+  <div class="container-login100" style="background-image: url(https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);">
+  <div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30" style= " width:500px !important;">
   <form class="login100-form validate-form" action="/mole" method="POST">
                     @csrf
       <span class="login100-form-title p-b-37" style="padding-top: 35px;"> Children data registration </span>
@@ -260,8 +260,32 @@ iframe {
         </button>
       </div>
     </form>
+  
   </div>
+  
 </div>
 
+<footer>
+        <!-- Footer Start-->
+       
+        <!-- footer-bottom aera -->
+        <div class="footer-bottom-area footer-bg" style="background:  #cccacad0 !important; padding:20px">
+            <div class="container">
+                <div class="footer-border">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-xl-12 ">
+                                <div class="footer-copy-right text-center" style="color: #978e98;">
+                                    <p style="padding-top: 10px;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
 </body>
 </html>
