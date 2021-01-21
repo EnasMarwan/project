@@ -54,52 +54,53 @@
                   </div> 
                   <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                              <img src="assets/images/a.jpg" alt="">
+                              <img src="assets/images/n2.jpg" alt="">
                             </div>
                      </div> 
 
                        <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                    <img src="assets/images/a.jpg" alt="">
+                    <img src="assets/images/11.jpg" alt="">
                          </div>
                        </div> 
 
                        <br>
                   <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                              <img src="assets/images/a.jpg" alt="">
+                              <img src="assets/images/8.jpg" alt="">
                             </div>
                      </div> 
 
                        <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                    <img src="assets/images/a.jpg" alt="">
+                    <img src="assets/images/n3.jpg" alt="">
                          </div>
 
                   </div> 
                   <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                              <img src="assets/images/a.jpg" alt="">
+                              <img src="assets/images/4.jpg" alt="">
                             </div>
                      </div> 
                      <br>
                       <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                              <img src="assets/images/a.jpg" alt="">
+                              <img src="assets/images/n2.jpg" alt="">
                             </div>
                      </div> 
 
                        <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                    <img src="assets/images/a.jpg" alt="">
+                    <img src="assets/images/images.jpg" alt="">
                          </div>
 
                   </div> 
                   <div class="col-lg-4 col-md-4">
                       <div class="memory">
-                              <img src="assets/images/a.jpg" alt="">
+                              <img src="assets/images/3.jpg" alt="">
                             </div>
-                     </div> 
+                     </div>
+              </div> 
 
   </section>
 
