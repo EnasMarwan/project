@@ -10,7 +10,40 @@
   <!-- CSS here -->
  
 </head>
-
+<header>
+        <!-- Header Start -->
+       <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2 col-md-2" style="padding-right: 20px; padding-top: 10px;">
+                            <div class="logo">
+                                <p style="color: black; font-size: 25px" >Mall games</p>
+                             <!--   <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>-->
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-10" style="padding-left: 400px;">
+                            <!-- Main-menu -->
+                            <div class="main-menu f-right d-none d-lg-block">
+                                <nav>                              
+                                    <ul class="links" id="navigation">    
+                                        <li> <a href="/mole"> List of existing children</a></li>
+                               
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div> 
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+        <!-- Header End -->
+    </header>
 
     
  <style>
@@ -27,7 +60,6 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 a {
 	font-family: SourceSansPro-Regular;
@@ -49,7 +81,15 @@ a:hover {
   text-decoration: none;
   color: #4b2354;
 }
-
+ul, li {
+	margin: 20px;
+  list-style-type: none;
+  float: left;
+  
+}
+.links{
+  float: right;
+}
 
 input {
 	outline: none;
@@ -92,6 +132,8 @@ iframe {
   background: #FFF;
   padding: 0 20px 20px 20px;
   border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   overflow: hidden;
   box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
@@ -203,7 +245,7 @@ iframe {
   }
 }
 </style>
-<body  >
+<body>
   <div class="container-login100" style="background-image: url(https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);">
   <div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30" style= " width:500px !important;">
   <form class="login100-form validate-form" action="/mole" method="POST">
