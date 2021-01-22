@@ -8,7 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- CSS here -->
- 
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/jquery.bxslider.css" />
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <header>
         <!-- Header Start -->
@@ -28,6 +33,7 @@
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>                              
                                     <ul class="links" id="navigation">    
+                                      <li class="active"><a href="{{ route('home') }}">Home</a></li>
                                         <li> <a href="/mole"> List of existing children</a></li>
                                
                                     </ul>

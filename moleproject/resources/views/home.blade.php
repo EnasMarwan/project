@@ -2,6 +2,8 @@
 
 @section('content')
 <div class="container">
+    <br>
+    <br>
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -13,11 +15,12 @@
                             {{ session('status') }}
                         </div>
                     @endif
-<form style="text-align: center">
-                    {{ __('You are logged in!') }}
-                   <p> <a href="/mole/create"> Recored the data  </a> </p>
-                   <p> <a href="/mole"> Show the list </a> </p>
-                   <p> <a href="/mole"> Show the list </a> </p>
+<form style="text-align: center;">
+                    {{ __('Welcom to our website!') }}
+                    <br>
+                    <br>
+                   <button > <a href="/mole/create"> Add Child  </a> </button><br> <br>
+                   <button > <a href="/mole"> Show the list </a> </button>
 </form>
                 </div>
             </div>
