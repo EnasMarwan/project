@@ -83,9 +83,11 @@
                     <thead >
                         <tr>
                             <th> Name         </th>
+                            <th> Parent Name  </th>
                             <th> Phone Number </th>
                             <th> Hours of play</th>
-                            <th> Parent Name  </th>
+                            <th> Game</th>
+                            
                             <th> Options</th>
                         </tr>
                     </thead>
@@ -94,23 +96,15 @@
                         @foreach ($mole as $moles)
                         <tr>
                             <td> {{$moles->name}}</td> 
+                            <td> {{$moles->mother}} </td>
                             <td> {{$moles->mobile}} </td>
                             <td> {{$moles->play_num}} </td> 
-                            <td> {{$moles->mother}} </td>
+                            <td> {{$moles->game_sellect}} </td> 
+                           
                                        
                                 <td>
 
-                               <form style="	border-radius:25px;
-                               border:1px ;
-                               display:inline-block;
-                               cursor:pointer;
-                               color:#ffffff;
-                               font-family:Arial;
-                               font-size:17px;
-                               padding:11px 34px;
-                               text-decoration:none;
-                               text-shadow:-3px 2px 9px #2f6627;
-                               background-color: #ba0000;" 
+                               <form id="e2" 
                                 action="{{route('mole.destroy',$moles->id)}}"  method="POST">
                                   @csrf
                                   @method('delete')
@@ -118,18 +112,7 @@
 
                                </form>
                                
-                                 <a  style=" 	border-radius:25px;
-                                 border:1px ;
-                                 display:inline-block;
-                                 cursor:pointer;
-                                 color:#ffffff;
-                                 font-family:Arial;
-                                 font-size:17px;
-                                 padding:15px ;
-                                 text-decoration:none;
-                                 text-shadow:-3px 2px 9px #2f6627;
-                                 background-color:  #008CBA;"
-                                  href="{{route('mole.edit',$moles->id)}}"> Edit</a>
+                                 <a id="e1"  href="{{route('mole.edit',$moles->id)}}"> Edit</a>
                            
                             </td>
                         </tr>

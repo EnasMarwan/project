@@ -297,7 +297,7 @@ iframe {
 </div>
 <br>
 <div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
-    <input class="input100" type="text" name="game_sellect" placeholder="Select the game" style="width: 260px !important;">
+    <input   class="input100" type="text" name="game_sellect" placeholder="Select the game" style="width: 260px !important;">
     <span class="focus-input100"></span>
   </div>
   <br>
