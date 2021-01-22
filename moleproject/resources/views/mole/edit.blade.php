@@ -9,12 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/edit.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-       
-      <!-- CSS here -->
-  <link rel="stylesheet" href="assets/css/jquery.bxslider.css" />
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-   <link rel="stylesheet" href="assets/css/slicknav.css">
- <link rel="stylesheet" href="assets/css/style.css">
+     
 </head>
 <header>
         <!-- Header Start -->
