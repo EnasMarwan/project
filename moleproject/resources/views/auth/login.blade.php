@@ -8,7 +8,7 @@
     <br>
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
+            <div  style="background: rgb(234, 236, 232)" class="card">
                 <div style="text-align: center; font-size:30px; font-style:italic; color:rgb(58, 99, 233);" class="card-header">{{ __('Login') }}</div>
 
                 <div style="background-color:rgb(228, 228, 238); " class="card-body">

@@ -258,46 +258,46 @@ iframe {
                     @csrf
       <span class="login100-form-title p-b-37" style="padding-top: 35px;"> Children data registration </span>
 <br>
-<div class="wrap-input100 validate-input m-b-20" data-validate="Enter username or email">
+<div class="wrap-input100 validate-input m-b-20" >
         <input class="input100" type="text" name="name" placeholder="The child's name ">
         <span class="focus-input100"></span>
       </div>
 <br>
-<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
+<div class="wrap-input100 validate-input m-b-25" >
   <input class="input100" type="text" name="age" placeholder=" Child's age">
   <span class="focus-input100"></span>
 </div>
      
 <br>
-<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
+<div class="wrap-input100 validate-input m-b-25" >
         <input class="input100" type="text" name="mother" placeholder="  Guardian's name">
         <span class="focus-input100"></span>
       </div>
 <br>
-<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
+<div class="wrap-input100 validate-input m-b-25" >
   <input class="input100" type="text" name="mobile" placeholder="phone number">
   <span class="focus-input100"></span>
 </div>
 <br>
-<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
+<div class="wrap-input100 validate-input m-b-25" >
   <input class="input100" type="text" name="ident" placeholder="Identification Number" style="width: 250px !important;">
   <span class="focus-input100"></span>
 </div>
 
 <br>
-<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
+<div class="wrap-input100 validate-input m-b-25" >
   <input class="input100" type="text" name="time_arrive" placeholder="Baby's arrival time">
   <span class="focus-input100"></span>
 </div>
 
 <br>
-<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
+<div class="wrap-input100 validate-input m-b-25">
   <input class="input100" type="text" name="play_num" placeholder="Hours of play" style="width: 260px !important;">
   <span class="focus-input100"></span>
 </div>
 <br>
-<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
-    <input class="input100" type="text" name="game_sellect" placeholder="Select the game" style="width: 260px !important;">
+<div class="wrap-input100 validate-input m-b-25" >
+    <input   class="input100" type="text" name="game_sellect" placeholder="Select the game" style="width: 260px !important;">
     <span class="focus-input100"></span>
   </div>
   <br>
