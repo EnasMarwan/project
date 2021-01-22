@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
 </head>
 <body style="     background-image:url('assets/images/2.jpeg'); 
 background-repeat: no-repeat;
@@ -75,6 +76,7 @@ background-size: cover; " >
         </nav>
 
         <main class="py-4">
+            @include('_msg')
             @yield('content')
         </main>
     </div>

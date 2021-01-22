@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mole;
 
+
 class MoleController extends Controller
 {
     public function index(){
@@ -45,6 +46,7 @@ public function store(){
        $mole->game_sellect=request('game_sellect');
        
       $mole->save();
+      session()->flash('message','data added successfully');
         return redirect('/home');
     }
 
@@ -52,26 +54,24 @@ public function store(){
     public function destroy($id){
         $mole = Mole::findOrFail($id);
         $mole->delete();
-        return redirect('/mole');
+        session()->flash('message','data deleted successfully');
+      return redirect('/home');
 
     }
 
     public function edit($id){
         $mole=Mole::findorfail($id);
+        session()->flash('message','data updated successfully');
         return view('mole.edit',['mole'=>$mole]);
     }
+
+
     public function update(Request $request,$id){
-// $name=$request->grt('name');
-// $age=$request->grt('age');
-// $mother=$request->grt('mother');
-// $mobile=$request->grt('mobile');
-// Mole::where('id',$id)->update
-// return $request->all();
-$mole = Mole::findorfail($id);
-$mole->update($request->all());
-return redirect('/mole');
-//$mole=Mole::update('update mole set name=? ,age=? ,mother=? ,mobile=? where id=?',[$name ,$age,$mother,$mobile,$id]);
-//return view('mole.edit',['mole'=>$mole]);
+    $mole = Mole::findorfail($id);
+    $mole->update($request->all());
+    session()->flash('message','data edited successfully');
+    return redirect('/mole');
+
 
 
     }

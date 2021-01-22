@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="assets/css/edit.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
        
+      <!-- CSS here -->
+  <link rel="stylesheet" href="assets/css/jquery.bxslider.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/slicknav.css">
+ <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <header>
         <!-- Header Start -->
@@ -28,7 +33,8 @@
                             <!-- Main-menu -->
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>                              
-                                    <ul class="links" id="navigation">    
+                                    <ul class="links" id="navigation">  
+                                      <li class="active"><a href="{{ route('home') }}">Home</a></li>  
                                         <li> <a href="/mole"> Back</a></li>
                                
                                     </ul>
@@ -152,7 +158,7 @@ ul, li {
       display: block;
       font-family: SourceSansPro-Bold;
       font-size: 30px;
-      color: #ec7c1a;
+      color: #5491ec;
       line-height: 1.2;
       text-align: center;
     }
@@ -230,7 +236,7 @@ ul, li {
       padding: 0 20px;
       min-width: 160px;
       height: 50px;
-      background-color: #e09c5f;
+      background-color: #5face0;
       border-radius: 25px;
     
       font-family: SourceSansPro-SemiBold;
